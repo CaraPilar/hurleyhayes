@@ -7,6 +7,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function scrolldiv(id) {
+                    var elem = document.getElementById(id);
+                    elem.scrollIntoView({behavior: 'smooth', block: 'start'});
+                }
+        </script>
     </head>
     <body>
         <main>
@@ -18,10 +24,10 @@
                     <h1>Hurley-Hayes Family Reunion</h1>
                     <p>Celebrating 50 years of family</p>
                     <div class="header-navigation"><nav>
-                        <div class="nav-item">Event</div>
-                        <div class="nav-item">Fees</div>
-                        <div class="nav-item">Itinerary</div>
-                        <div class="nav-item">Contact</div>
+                        <div class="nav-item" onclick="scrolldiv('event')">Event</div>
+                        <div class="nav-item" onclick="scrolldiv('fees')">Fees</div>
+                        <div class="nav-item" onclick="scrolldiv('itinerary')">Itinerary</div>
+                        <div class="nav-item" onclick="scrolldiv('contact')">Contact</div>
                     </nav></div>
                 </div>
             </section>
