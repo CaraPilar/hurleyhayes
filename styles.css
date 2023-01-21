@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     line-height: normal;
 }
-section p.small {
+p.small, span.small, section p.small {
     font-size: 16px;
 }
 header, footer {
@@ -193,7 +193,7 @@ section h2 {
 
 /* Itinerary Section */
 .itinerary {
-    background-position: right bottom;
+    background-position: right 95%;
     background-image: url(images/4.png);
     background-size: 600px;
     background-repeat: no-repeat;
@@ -214,11 +214,20 @@ section h2 {
 .day-schedule li {
     margin: 0 0 1.6rem;
 }
+.day-schedule li span {
+    color: #da9e63;
+    font-style: italic;
+}
 .things-to-do {
     margin: 4rem 0;
 }
 .things-to-do h3 {
     font-size: 28px;
+    margin-bottom: 2rem;
+}
+.things-to-do h3 span {
+    color: #000;
+    font-size: 18px;
 }
 
 /* Contact Section */
@@ -257,7 +266,7 @@ footer a {
     }
     section h2 {
         font-size: 40px;
-        margin-bottom: 6rem;
+        margin-bottom: 5rem;
     }
     .line {
         display: none;
