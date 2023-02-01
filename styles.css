@@ -171,8 +171,16 @@ section h2 {
     background-color: #fff;
     color: #da9e63;
 }
+
+.event .map {
+    margin-bottom: 30px;
+}
 .event .map iframe {
     width: 100%;
+}
+.event .flights h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 /* Fee Section */
@@ -280,6 +288,14 @@ footer a {
     .event-info {
         width: 50%;
         text-align: center;
+    }
+
+    .event .location-info {
+        display: flex;
+    }
+    .event .map, .event .flights {
+        flex: 1;
+        padding: 0 10px;
     }
     .day-schedule .heading {
         border: 0;
