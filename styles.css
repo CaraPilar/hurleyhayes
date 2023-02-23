@@ -201,7 +201,7 @@ section h2 {
 
 /* Itinerary Section */
 .itinerary {
-    background-position: right 95%;
+    background-position: right 90%;
     background-image: url(images/4.png);
     background-size: 600px;
     background-repeat: no-repeat;
@@ -236,6 +236,9 @@ section h2 {
 .things-to-do h3 span {
     color: #000;
     font-size: 18px;
+}
+.things-to-do li {
+    margin-bottom: 10px;
 }
 
 /* Contact Section */
