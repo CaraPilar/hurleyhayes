@@ -19,6 +19,20 @@
                     elem.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }
         </script>
+        <style>
+            .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+        </style>
     </head>
     <body>
         <main>
@@ -29,17 +43,21 @@
                 <div class="wrapper">
                     <h1>Hurley-Hayes Family Reunion</h1>
                     <p>Celebrating 50 years of family</p>
-                    <div class="header-navigation"><nav>
+                    <!-- <div class="header-navigation"><nav>
                         <div class="nav-item" onclick="scrolldiv('event')">Event</div>
                         <div class="nav-item" onclick="scrolldiv('fees')">Fees</div>
                         <div class="nav-item" onclick="scrolldiv('itinerary')">Itinerary</div>
                         <div class="nav-item" onclick="scrolldiv('contact')">Contact</div>
-                    </nav></div>
+                    </nav></div> -->
                 </div>
             </section>
             <section id="event" class="event">
                 <div class="wrapper">
-                    <h2>Event</h2>
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eN-qUV17WGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
+                    <!-- <h2>Event</h2>
                     <div class="event-information">
                         <div class="event-info">
                             <div class="heading">When</div>
@@ -80,8 +98,8 @@
                   </div>
                 </div>
 
-            </section>
-            <section id="fees" class="fees">
+            </section> -->
+            <!-- <section id="fees" class="fees">
                 <div class="wrapper">
                     <h2>Fees</h2>
                     <div class="text">
@@ -106,8 +124,8 @@
                     
                     </div>
                 </div>
-            </section>
-            <section id="itinerary" class="itinerary">
+            </section> -->
+           <!-- <section id="itinerary" class="itinerary">
                 <div class="wrapper">
                     <h2>Itinerary</h2>
                     <div class="schedule">
@@ -131,7 +149,7 @@
                                         <br> <span class="small">Please make sure your children are present. You don't want to miss the special celebrity guest appearance at halftime! </span>
                                     </li>
                                     <li>5:00 pm - Free Time </li>
-                                    <!-- <li>7:00 pm - Talent Show <br> <span class="small"> Sign up to participate <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfmAa9fvbYBnFmZTHIF_NSSdGOOhgwEb5ymIvHQ0Hn5eMQf-Q/viewform">HERE</a></span></li> -->
+                                     <li>7:00 pm - Talent Show <br> <span class="small"> Sign up to participate <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfmAa9fvbYBnFmZTHIF_NSSdGOOhgwEb5ymIvHQ0Hn5eMQf-Q/viewform">HERE</a></span></li>
                                 </ul>
                             </div>
                         </div>
@@ -209,19 +227,19 @@
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- <section id="familytree">
                 <div class="wrapper">
                     <p>Check out our Living Family Tree <a href="https://youtu.be/eN-qUV17WGI " target="_blank">HERE</a></p>
                 </div>
             </section> -->
-            <section id="contact" class="contact">
+            <!-- <section id="contact" class="contact">
                 <div class="wrapper">
                     <h2>Contact</h2>
                     <p>If you plan to attend the Hurley-Hayes 50th Reunion, please reach out to Cara Smith @ &#099;&#097;&#114;&#097;&#112;&#115;&#109;&#105;&#116;&#104;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;.</p>
                     <p>Include a count of those attending in your family and any updated contact information. Also include your t-shirt sizes and family member ages as of July 2023.</p>
                 </div>
-            </section>
+            </section> -->
         </main>
 
        <footer>
