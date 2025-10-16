@@ -18,3 +18,18 @@
        const menu = document.getElementById('mobileMenu');
        menu.classList.toggle('show');
    }
+
+
+   function scrolldiv(id) {
+       var elem = document.getElementById(id);
+       elem.scrollIntoView({
+           behavior: 'smooth',
+           block: 'start'
+       });
+
+       // Close mobile menu if screen is small
+       const menu = document.getElementById('mobileMenu');
+       if (window.innerWidth <= 768) {
+           menu.classList.remove('show');
+       }
+   }
