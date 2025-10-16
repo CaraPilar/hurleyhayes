@@ -13,3 +13,8 @@
            content.style.display = isOpen ? 'none' : 'block';
        });
    });
+
+   function toggleMenu() {
+       const menu = document.getElementById('mobileMenu');
+       menu.classList.toggle('show');
+   }
