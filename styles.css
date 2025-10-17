@@ -154,7 +154,7 @@ strong {
 
 a {
     color: #5D3A00;
-    color: #062424;
+    color: #BD7A52;
 }
 
 p {
@@ -173,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #062424;
+    color: #2F4550;
     text-transform: uppercase;
     line-height: normal;
     font-family: 'Aboreto', serif;
@@ -209,9 +209,9 @@ footer {
 .hero {
     background-color: #354e3e;
     background-color: #354e3e;
-    background-color: #f1e9d9;
+    background-color: #FAF1E6;
     text-align: center;
-    color: #062424;
+    color: #BD7A52;
     padding: 5rem 0rem 4rem;
     /* background-image: url(images/savannah-bg.jpg); */
     background-size: cover;
@@ -235,20 +235,21 @@ footer {
 
 .hero p {
     font-size: 20px;
+    color: #2F4550;
 }
 
 .header-navigation {
     text-align: center;
     /* margin: 42px 0 42px; */
     flex-wrap: wrap;
-    background-color: #062424;
+    background-color: #BD7A52;
     position: fixed;
     width: 100%;
     z-index: 999;
 }
 
 .nav-container {
-    padding: 15px 20px;
+    padding: 5px 20px;
 }
 
 #mobileMenu {
@@ -258,7 +259,7 @@ footer {
 }
 
 .nav-item {
-    color: #062424;
+    color: #BD7A52;
     color: #fff;
     font-size: 14px;
     font-family: 'Aboreto';
@@ -269,7 +270,7 @@ footer {
     padding: 2.5rem 1.6rem;
     padding: 1rem 0;
     width: 50%;
-    border: 1px solid #062424;
+    border: 1px solid #BD7A52;
     cursor: pointer;
     -webkit-transition: .5s ease;
     transition: .5s ease;
@@ -277,7 +278,7 @@ footer {
 }
 
 .nav-item:hover {
-    background-color: #062424;
+    background-color: #BD7A52;
     color: #fff;
 }
 
@@ -356,31 +357,29 @@ section h3 {
 
 /* Intro Section */
 
-.intro .book-today {
+.book-today {
     display: inline-block;
     width: auto;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3.2px;
-    padding: 22px 40px;
-    background-color: #062424;
+    padding: 18px 40px;
+    background-color: #A05682;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #062424;
+    border: 1px solid #A05682;
     -webkit-transition: .5s ease;
     transition: .5s ease;
+    font-weight: bold;
+}
+
+.book-today:hover {
+    background-color: #fff;
+    color: #A05682;
 }
 
 
 /* Event Section */
-
-.event {
-    background-position: 105% bottom;
-    background-image: url(images/moss2.png);
-    background-size: 700px;
-    background-repeat: no-repeat;
-    padding-top: 4rem;
-}
 
 .event h2 {
     margin-bottom: 2rem;
@@ -406,43 +405,30 @@ section h3 {
 } */
 
 .event-info .book-today {
-    display: inline-block;
     width: auto;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 3.2px;
     padding: .5rem 2rem;
-    background-color: #062424;
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #062424;
-    -webkit-transition: .5s ease;
-    transition: .5s ease;
-}
-
-.book-today:hover {
-    background-color: #fff;
-    color: #062424;
 }
 
 .event-info .hotel-details {
-    display: inline-block;
+    /* display: inline-block;
     width: auto;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3.2px;
-    padding: .5rem 2rem;
-    background-color: #f1e9d9;
-    color: #062424;
-    text-decoration: none;
+    padding: .5rem 2rem; */
+    background-color: #FAF1E6;
+    border: 1px solid #FAF1E6;
+    color: #BD7A52;
+    /* text-decoration: none;
     -webkit-transition: .5s ease;
-    border: 1px solid #f1e9d9;
-    transition: .5s ease;
+    border: 1px solid #FAF1E6;
+    transition: .5s ease; */
 }
 
 .event-info .hotel-details:hover {
     background-color: #fff;
-    color: #062424;
+    border-color: #BD7A52;
+    color: #BD7A52;
 }
 
 .event .map {
@@ -470,7 +456,7 @@ section h3 {
 /* Fee Section */
 
 .fees {
-    background-color: #f1e9d9;
+    background-color: #FAF1E6;
 }
 
 .fees .text {
@@ -481,11 +467,6 @@ section h3 {
 .fees ul {
     margin: 2rem 0;
 }
-
-
-/* .fees li {
-    margin-bottom: 1.6rem;
-} */
 
 .fees table {
     width: 100%;
@@ -503,20 +484,21 @@ section h3 {
     font-size: 18px;
 }
 
+.registration-steps,
+.payment-information {
+    text-align: center;
+}
+
+.registration-steps .steps {
+    margin: 2rem 0;
+}
+
 .payment-information h4 {
     font-size: 18px;
 }
 
 
 /* Itinerary Section */
-
-
-/* .itinerary {
-    background-position: right 90%;
-    background-image: url(images/4.png);
-    background-size: 600px;
-    background-repeat: no-repeat;
-} */
 
 .day-schedule .heading {
     font-size: 28px;
@@ -558,19 +540,11 @@ section h3 {
     font-style: italic;
 }
 
-
-/* .day-schedule td .small {
-    color: #062424;
-    font-style: italic;
-} */
-
 .day-schedule td .note {
     padding: 10px;
     margin: 20px 0;
-    /*border: 1px solid #062424;*/
-    /*background-color: #fcf1e7;*/
     border: 0;
-    border-left: 3px solid #849090;
+    border-left: 3px solid #A05682;
     border-radius: 5px;
 }
 
@@ -597,11 +571,15 @@ section h3 {
 }
 
 .things-to-do .card {
-    background: #f1e9d9;
+    background: #FAF1E6;
     box-shadow: 0px 0px 15px 0px #00000021;
     border-radius: 8px;
     overflow: hidden;
     width: 100%;
+}
+
+.things-to-do .card a {
+    color: #2F4550;
 }
 
 .things-to-do .card .small {
@@ -610,7 +588,7 @@ section h3 {
 
 .things-to-do .card-title {
     margin-bottom: 1rem;
-    color: #062424;
+    color: #2F4550;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
@@ -704,7 +682,7 @@ section h3 {
 /*Regitration Section*/
 
 .register {
-    background-color: #f1e9d9;
+    background-color: #FAF1E6;
 }
 
 
@@ -722,7 +700,7 @@ section h3 {
 
 footer {
     text-align: center;
-    background-color: #062424;
+    background-color: #BD7A52;
     color: #fff;
 }
 
@@ -770,7 +748,7 @@ footer h3 {
     }
     section h2 {
         font-size: 40px;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
     .line {
         display: none;
@@ -783,6 +761,16 @@ footer h3 {
     }
     .intro .image {
         padding: 0 3rem;
+    }
+    .event {
+        background-position: 105% bottom;
+        background-position: 20px bottom;
+        background-image: url(images/5.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+    .event {
+        padding-top: 3.5rem;
     }
     .event-information {
         display: flex;
@@ -825,6 +813,12 @@ footer h3 {
     .fees table h3 {
         font-size: 22px;
     }
+    .registration-steps .steps {
+        display: flex;
+    }
+    .registration-steps .steps .step {
+        flex: 0 0 calc(33.333%);
+    }
     .payment-information .options {
         display: flex;
         justify-content: space-between;
@@ -832,6 +826,12 @@ footer h3 {
     }
     .payment-information .option {
         flex: 0 0 calc(33.333%);
+    }
+    .itinerary {
+        background-position: right 90%;
+        background-image: url(images/6.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
     }
     .day-schedule .heading {
         border: 0;
@@ -846,12 +846,12 @@ footer h3 {
     .things-to-do .card {
         flex: 0 0 calc(33.333% - 20px);
     }
-    .footer-content {
+    /* .footer-content {
         display: flex;
-    }
-    .footer-content>div {
+    } */
+    /* .footer-content>div {
         flex: 0 0 50%;
-    }
+    } */
 }
 
 
@@ -869,11 +869,11 @@ footer h3 {
     }
     #mobileMenu {
         position: absolute;
-        top: 58px;
+        top: 54px;
         left: 0;
         width: 100%;
         flex-direction: column;
-        background: #062424;
+        background: #BD7A52;
         display: none;
         /* Hidden by default */
         padding: 10px 0;
