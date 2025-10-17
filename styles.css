@@ -164,7 +164,7 @@ p {
 .wrapper {
     max-width: 1200px;
     margin: auto;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
 }
 
 h1,
@@ -192,10 +192,11 @@ ul {
     padding-left: 1rem;
 }
 
-header,
+
+/* header,
 footer {
-    /* background-color: #354e3e; */
-}
+    background-color: #354e3e;
+} */
 
 .header-logo {
     text-align: center;
@@ -399,9 +400,10 @@ section h3 {
     margin-bottom: 2rem;
 }
 
-.event-info p {
-    /* font-size: 24px; */
-}
+
+/* .event-info p {
+    font-size: 24px;
+} */
 
 .event-info .book-today {
     display: inline-block;
@@ -480,9 +482,10 @@ section h3 {
     margin: 2rem 0;
 }
 
-.fees li {
-    /* margin-bottom: 1.6rem; */
-}
+
+/* .fees li {
+    margin-bottom: 1.6rem;
+} */
 
 .fees table {
     width: 100%;
@@ -544,6 +547,10 @@ section h3 {
 
 .day-schedule td {
     padding: 10px;
+}
+
+.day-schedule td:first-child {
+    padding-left: 0;
 }
 
 .day-schedule i,
@@ -703,9 +710,10 @@ section h3 {
 
 /* Contact Section */
 
-.contact {
-    /* background-color: #EAE5D2; */
-}
+
+/* .contact {
+    background-color: #EAE5D2;
+} */
 
 .contact .wrapper {
     max-width: 768px;
@@ -738,6 +746,9 @@ footer h3 {
 }
 
 @media (min-width: 768px) {
+    .wrapper {
+        padding: 2rem;
+    }
     .logo {
         display: none;
     }
@@ -750,9 +761,9 @@ footer h3 {
     /* .hero p {
         font-size: 32px;
     } */
-    nav {
-        /* margin-top: 80px; */
-    }
+    /* nav {
+        margin-top: 80px;
+    } */
     .nav-item {
         width: 20%;
         font-size: 16px;
