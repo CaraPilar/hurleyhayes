@@ -302,6 +302,11 @@ footer {
     font-family: 'Aboreto', serif;
 }
 
+.header-navigation .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* Nav styles */
 
@@ -404,7 +409,8 @@ section h3 {
     font-size: 24px;
 } */
 
-.event-info .book-today {
+.event-info .book-today,
+.itinerary .book-today {
     width: auto;
     padding: .5rem 2rem;
 }
@@ -522,6 +528,11 @@ section h3 {
     margin: 0;
     padding-left: 1rem;
 }
+
+
+/* .day-schedule .note {
+    display: none;
+} */
 
 .day-schedule ul.note {
     list-style: none;
@@ -818,6 +829,7 @@ footer h3 {
     }
     .registration-steps .steps .step {
         flex: 0 0 calc(33.333%);
+        padding: 0 2rem;
     }
     .payment-information .options {
         display: flex;
@@ -843,8 +855,24 @@ footer h3 {
         border-bottom: 1px solid #000;
         padding: 2rem 0;
     }
+    .day-schedule.one-day-schedule {
+        display: block;
+    }
     .things-to-do .card {
         flex: 0 0 calc(33.333% - 20px);
+    }
+    .history {
+        background-position: 100% 20%;
+        background-image: url(images/us.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+    .city-list {
+        column-count: 3;
+        column-gap: 2em;
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
     /* .footer-content {
         display: flex;
@@ -869,7 +897,7 @@ footer h3 {
     }
     #mobileMenu {
         position: absolute;
-        top: 54px;
+        top: 52px;
         left: 0;
         width: 100%;
         flex-direction: column;
