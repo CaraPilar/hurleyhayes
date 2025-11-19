@@ -43,9 +43,9 @@
                 <div class="hamburger" onclick="toggleMenu()"><span class="material-symbols-outlined">menu</span></div>
                 <nav id="mobileMenu">
                     <div class="nav-item" onclick="scrolldiv('event')">Stay</div>
-                    <div class="nav-item" onclick="scrolldiv('fees')">Fees & Registration</div>
+                    <div class="nav-item" onclick="scrolldiv('fees')">Fees</div>
                     <div class="nav-item" onclick="scrolldiv('itinerary')">Itinerary</div>
-                    <!-- <div class="nav-item" onclick="scrolldiv('register')">Register</div> -->
+                    <div class="nav-item" onclick="scrolldiv('register')">Register</div>
                     <div class="nav-item" onclick="scrolldiv('history')">Past Reunions</div>
                 </nav>
             </div>
@@ -73,12 +73,12 @@
                     </p>
                     <p>This site has everything you need: updates, event details, and important announcements. Be sure to check back often so you don't miss anything.
                     </p>
-                    <p>We can't wait to see you in Savannah!</p>
+                    <!-- <p>We can't wait to see you in Savannah!</p> -->
                     <p><b>Planning to join us?</b> Please take a moment to complete the <b>interest form</b> so we can estimate attendance and plan activities.</p>
                     <!-- <p><b>Ready to join us?</b> Register your family today!</p> -->
 
-                    <!-- <p><a class="book-today" href="#register">Interest Form</a></p> -->
-                    <p><a class="book-today" href="https://hhr-interest-form.cheddarup.com" target="_blank">Interest Form</a></p>
+                    <p><a class="book-today" href="#" onclick="scrolldiv('register'); return false;">Interest Form</a></p>
+                    <!-- <p><a class="book-today" href="https://hhr-interest-form.cheddarup.com" target="_blank">Interest Form</a></p> -->
 
                 </div>
 
@@ -139,14 +139,14 @@
                     <br>
                     <br>
                     <ul>
-                        <li>We are currently assessing the costs for group transportation to gatherings, particularly those outside of the Historic District. Stay tuned for more information!</li>
+                        <li>We are currently reviewing group transportation options for gatherings, especially those outside the Historic District. More details coming soon!</li>
                         <!-- <li>Group transportation will be available for all official events outside the Historic District (i.e. Family Day at Tybee Island)</li> -->
-                        <li>The entire Historic District is ~2 square miles. Most destinations are within easy walking distance, and exploring the city on foot is the recommended way to take in the charm of Savannah! </li>
-                        <li>Uber/Lyft is often the quickest and most cost-effective way to get around the Historic District, with rides typically taking just 3-8 minutes.</li>
-                        <li>Step back in time with a horse and carriage tour through Savannah - <a href="https://www.savannahcarriage.com/" target="_blank">Book a Tour!</a></li>
-                        <li>Utilize the complimentary DOT Express Shuttle and Savannah Belles Ferry to explore the district and the waterfront.</li>
+                        <li>The Historic District is about 2 square miles, and most destinations are an easy walk. Exploring on foot is one of the best ways to enjoy Savannah's charm.</li>
+                        <li>Uber/Lyft are often the quickest and most affordable way to get around, with most rides taking only 3 to 8 minutes.</li>
+                        <li>Step back in time with a horse and carriage tour through Savannah. <a href="https://www.savannahcarriage.com/" target="_blank">Book a Tour!</a></li>
+                        <li>Take advantage of the <b>free</b> DOT Express Shuttle and Savannah Belles Ferry to explore the district and the waterfront.</li>
                         <li>Take a guided, hop-on/hop-off trolley tour.</li>
-                        <li>Numerous garages, parking lots and metered on-street parking spaces are available throughout the Historic District. See parking resources below.</li>
+                        <li>Garages, parking lots and metered street parking are available throughout the Historic District. See parking resources below.</li>
                         <li>River Street is a beautiful cobblestone-lined street right on the riverfront. Learn the best ways to get there: <a target="_blank" href="https://visitsavannah.com/article/river-street-first-time-guide">Accessing River Street</a></li>
                     </ul>
                     <br>
@@ -196,7 +196,7 @@
         </section>
         <section id="fees" class="fees">
             <div class="wrapper">
-                <h2>Fees & Registration</h2>
+                <h2>Fees</h2>
                 <div class="text">
                     <table>
                         <tr>
@@ -217,7 +217,7 @@
                             </td>
                             <td>
 
-                                <p>TBD - Registration isn't open just yet, but in the meantime, let us know you're interested by having one person per household complete the short <a target="_blank" href="https://hhr-interest-form.cheddarup.com/">interest form</a>.</p>
+                                <p>TBD - Registration isn't open just yet, but in the meantime, let us know you're interested by having one person per household complete the short <a href="#" onclick="scrolldiv('register'); return false;">interest form</a>.</p>
                             </td>
                         </tr>
                         <tr>
@@ -466,10 +466,10 @@
                     </div>
                 </div>
             </section> -->
-        <!-- <section id="register" class="register">
+        <section id="register" class="register">
             <div class="wrapper">
                 <h2>Register</h2>
-                <p style="text-align:center;">Registration isn't open just yet, but in the meantime, let us know you're interested by filling out the short form below.</p>
+                <p style="text-align:center;">Registration isn't open just yet, but in the meantime, let us know you're interested by completing the short form below.</p>
 
                 <iframe id="JotFormIFrame-252764461084157" title="Hurley-Hayes Reunion 2027 Interest" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allow="geolocation; microphone; camera; fullscreen; payment" src="https://form.jotform.com/252764461084157"
                     frameborder="0" style="min-width:100%;max-width:100%;height:539px;border:none;" scrolling="no">
@@ -480,7 +480,7 @@
                 </script>
 
             </div>
-        </section> -->
+        </section>
         <section id="history" class="history">
             <div class="wrapper">
                 <h2>Where We've Been</h2>
@@ -545,7 +545,10 @@
                 </div>
             </div>
 
-            <p class="small copyright">&copy; 2025 All Rights Reserved. Made with &hearts;</p>
+            <p class="small copyright">&copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> All Rights Reserved. Made with &hearts;</p>
         </div>
 
     </footer>
