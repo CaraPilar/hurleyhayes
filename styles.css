@@ -200,10 +200,13 @@ footer {
 
 .header-logo {
     text-align: center;
+    max-width: 25rem;
+    margin: auto;
+    padding: 0 2rem;
 }
 
 .header-logo img {
-    max-width: 10rem;
+    max-width: 100%;
 }
 
 .hero {
@@ -747,6 +750,10 @@ footer h3 {
     .hero h1 {
         font-size: 48px;
     }
+    .hero .dates {
+        display: flex;
+        justify-content: center;
+    }
     /* .hero p {
         font-size: 32px;
     } */
@@ -776,7 +783,7 @@ footer h3 {
     .event {
         background-position: 105% bottom;
         background-position: 20px bottom;
-        background-image: url(images/5.png);
+        /* background-image: url(images/5.png); */
         background-size: 500px;
         background-repeat: no-repeat;
     }
@@ -841,7 +848,7 @@ footer h3 {
     }
     .itinerary {
         background-position: right 90%;
-        background-image: url(images/6.png);
+        /* background-image: url(images/6.png); */
         background-size: 600px;
         background-repeat: no-repeat;
     }
