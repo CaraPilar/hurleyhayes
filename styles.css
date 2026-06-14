@@ -421,6 +421,14 @@ section h3 {
     font-size: 24px;
 } */
 
+.event-info .hotel-photos {
+    display: flex;
+}
+
+.event-info .hotel-photos img {
+    width: 50%;
+}
+
 .event-info .book-today,
 .itinerary .book-today {
     width: auto;
@@ -823,7 +831,7 @@ footer h3 {
     }
     .event-info {
         width: 50%;
-        padding-left: 3rem;
+        padding-left: 2rem;
         /* text-align: center; */
     }
     .event-info:first-child {
