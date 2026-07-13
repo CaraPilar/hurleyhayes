@@ -23,7 +23,6 @@ cite,
 code,
 del,
 dfn,
-em,
 img,
 ins,
 kbd,
@@ -423,10 +422,12 @@ section h3 {
 
 .event-info .hotel-photos {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
 }
 
 .event-info .hotel-photos img {
-    width: 50%;
+    width: 49%;
 }
 
 .event-info .book-today,
@@ -468,6 +469,7 @@ section h3 {
 .event h3 {
     /* font-size: 20px; */
     margin-bottom: 10px;
+    margin-top: 1rem;
 }
 
 .event .transportation h3 {
@@ -589,6 +591,14 @@ section h3 {
 
 .day-schedule table td:first-child {
     width: 25%;
+}
+
+.day-schedule .daytime-options {
+    font-size: 16px;
+}
+
+.day-schedule .daytime-options li {
+    margin: 0;
 }
 
 .things-to-do {
