@@ -380,6 +380,8 @@ section h3 {
     color: #ffffff;
     padding: 12px 20px;
     box-sizing: border-box;
+    position: absolute;
+    top: 5px;
 }
 
 .countdown-inner {
@@ -434,6 +436,7 @@ section h3 {
 @media (max-width: 600px) {
     .countdown-banner {
         padding: 5px 12px;
+        top: 46px;
     }
     .countdown-inner {
         gap: 12px;
@@ -1096,8 +1099,7 @@ footer h3 {
     }
     #mobileMenu {
         position: absolute;
-        top: 52px;
-        top: 98px;
+        top: 45px;
         left: 0;
         width: 100%;
         flex-direction: column;
@@ -1118,10 +1120,4 @@ footer h3 {
     /* #mobileMenu {
         display: none;
     } */
-}
-
-@media (max-width: 600px) {
-    #mobileMenu {
-        top: 135px;
-    }
 }
