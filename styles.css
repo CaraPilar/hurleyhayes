@@ -639,9 +639,10 @@ section h3 {
     margin: auto;
 }
 
-.fees ul {
+
+/* .fees ul {
     margin: 2rem 0;
-}
+} */
 
 .fees table {
     width: 100%;
@@ -697,8 +698,9 @@ section h3 {
 
 .day-schedule li {
     margin: 0 0 1.6rem;
-    /* background: #a4420021;
     list-style: none;
+    /* background: #a4420021;
+   
     padding: 2rem;
     box-shadow: 5px 5px 10px #eeeded; */
 }
@@ -706,6 +708,17 @@ section h3 {
 .day-schedule ul {
     margin: 0;
     padding-left: 1rem;
+}
+
+.day-schedule ul.small {
+    font-size: 16px;
+    padding-left: 1rem;
+}
+
+.day-schedule ul.small li {
+    margin: 0;
+    padding: 0;
+    list-style: circle;
 }
 
 .day-schedule .text {
@@ -966,7 +979,7 @@ footer h3 {
         justify-content: space-around;
     }
     #mobileMenu {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: auto;
         padding: 0 2rem;
         justify-content: space-between;
@@ -1076,7 +1089,7 @@ footer h3 {
         /* margin: 0 0 2rem; */
         display: grid;
         grid-template-columns: 1fr 3fr;
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #d9d9d9;
         padding: 2rem 0;
     }
     .day-schedule.one-day-schedule {

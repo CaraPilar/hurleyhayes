@@ -5,13 +5,14 @@
     <title>Hurley-Hayes Family Reunion</title>
     <meta name="description" content="Celebrating 52 Years of Family">
     <meta property="og:title" content="Hurley-Hayes Family Reunion">
-    <meta property="og:description" content="July 15, 2027 - July 18, 2027 | Celebrating 52 Years of Family">
-    <meta property="og:image" content="images/favicon.svg">
+    <meta property="og:description" content="July 15, 2027 - July 18, 2027 | Celebrating Over 50 Years of Family">
+    <meta property="og:image" content="images/greenville-collage.jpg">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on,menu" />
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="icon" href="images/favicon.svg">
@@ -40,171 +41,235 @@
         <div class="header-navigation">
             <div class="nav-container">
                 <div class="logo"><a href="#">HURLEY-HAYES</a></div>
-                <div class="home"><a class="nav-item" href="index.html">Back Home</a></div>
-                <!-- <div class="hamburger" onclick="toggleMenu()"><span class="material-symbols-outlined">menu</span></div> -->
-                <!-- <nav id="mobileMenu">
-                    <div class="nav-item" onclick="scrolldiv('event')">Stay</div>
+                <!-- <div class="home"><a class="nav-item" href="index.html">Back Home</a></div> -->
+
+                <div class="hamburger" onclick="toggleMenu()"><span class="material-symbols-outlined">menu</span></div>
+                <nav id="mobileMenu">
+                    <a class="nav-item" href="index.html#itinerary">Back To Full Itinerary</a>
+                    <!-- <div class="nav-item" onclick="scrolldiv('event')">Stay</div>
                     <div class="nav-item" onclick="scrolldiv('fees')">Fees</div>
                     <div class="nav-item" onclick="scrolldiv('itinerary')">Itinerary</div>
                     <div class="nav-item" onclick="scrolldiv('register')">Register</div>
-                    <div class="nav-item" onclick="scrolldiv('history')">Past Reunions</div>
-                </nav> -->
+                    <div class="nav-item" onclick="scrolldiv('history')">Past Reunions</div> -->
+                </nav>
             </div>
 
         </div>
         </div>
         <section class="hero">
-            <header>
-                <div class="header-logo"><img src="images/HHLogo3.png" alt="Hurley-Hayes" /></div>
-            </header>
+            <div class="countdown-banner">
+                <div class="countdown-inner">
+                    <span class="countdown-title">COUNTING DOWN TO GREENVILLE</span>
+
+                    <div class="countdown-timer">
+                        <div class="countdown-unit">
+                            <span id="days">00</span>
+                            <small>DAYS</small>
+                        </div>
+
+                        <span class="countdown-divider">|</span>
+
+                        <div class="countdown-unit">
+                            <span id="hours">00</span>
+                            <small>HRS</small>
+                        </div>
+
+                        <span class="countdown-divider">|</span>
+
+                        <div class="countdown-unit">
+                            <span id="minutes">00</span>
+                            <small>MIN</small>
+                        </div>
+
+                        <span class="countdown-divider">|</span>
+
+                        <div class="countdown-unit">
+                            <span id="seconds">00</span>
+                            <small>SEC</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="wrapper">
-                <h1>Hurley-Hayes Family Reunion</h1>
-                <p><b>WHEN:</b> July 2027 <br><span class="small">(official dates coming soon!)</span>
-                </p>
-                <p><b>WHERE:</b> Savannah, GA</p>
+                <div class="hero-text">
+                    <h1>Hurley-Hayes <br>Family Reunion</h1>
+                    <div class="dates">
+                        <p>July 15 - 18, 2027 | Greenville, South Carolina </p>
+
+                        <!-- <p><b>WHEN:</b> <br> July 2027 <br><span class="small">(official dates coming soon!)</span>
+                        </p>
+                        <p><b>WHERE:</b> <br>Greenville, South Carolina</p> -->
+                    </div>
+                </div>
+
             </div>
         </section>
         <section id="itinerary" class="itinerary">
             <div class="wrapper">
-                <h2>DAY 2</h2>
-                <p class="date">Friday, July 16</p>
+                <h2>DAY 1 - Thursday, July 15</h2>
+                <!-- <p class="date">Thursday, July 15</p> -->
                 <div class="schedule">
                     <div class="day-schedule one-day-schedule">
-                        <table>
-                            <tr>
-                                <td> <strong>A couple of notes for our day in Tybee Island:</strong></td>
-                                <td>
+                        <div class="text">
+                            <h3>Morning</h3>
+                            <ul>
+                                <!-- <li>
+                                    9:00 am — <b>Family History Hour</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> The Hiveaway (right of valet)</span>
 
-                                    <ul class="note">
-                                        <li class="small">We will depart the hotel at 8:15 am for a timely arrival.</li>
-                                        <li class="small">Wear your family reunion t-shirt. We'll take our group photo today!</li>
-                                        <li class="small">Bring your swimsuit if you'd like to enjoy North Beach, just a short walk from the park, and don't forget sunscreen and a towel.</li>
-                                        <li class="small">We will have group transportation, but for those driving, all parking in Tybee Island is pay-to-park at a rate of $4.00/hour. </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>9:30am - 11:30am</td>
-                                <td><strong>Visit to Tybee Island Marine Science Center</strong>
-                                    <div class="note">
-                                        <p class="small">Explore the shoreline with a guided Beach Ecology Tour, then discover live animal exhibits and hands-on interactive displays inside the Marine Science Center!</p>
-                                        <p class="small"><b>Location:</b> 37 Meddin Dr, Tybee Island, GA 31328</p>
-                                        <!-- <p class="small">Enjoy either the group Turtle Talk OR the Exhibits & Interactive Experience.</p>
-                                        <p class="small"><b>Turtle Talk:</b> Learn about the amazing lives of sea turtles and feed the loggerhead sea turtle at the Coastal Gallery.</p>
-                                        <p class="small"><b>Exhibits & Interactive Experience:</b> Enjoy live animal exhibits, fossil exploration and interactive installations.</p>
-                                        <p class="small"><b>Location:</b> 37 Meddin Dr, Tybee Island, GA 31328</p> -->
-                                    </div>
+                                    <br><span class="small">Join us for a special hour celebrating our family's history through stories, photos, and memories. Family members are invited to share favorite moments, learn about our ancestors, and help preserve the legacy we're continuing together.</span>
+                                </li> -->
+                                <li>8:00 am — <b>Robert Bailey Conn Memorial Basketball Game</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> Stauton Bridge Community Center - 165 Staunton Bridge Rd, Greenville, SC 29611</span>
+                                </li>
 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>12:00pm - 3:30pm</td>
-                                <td><strong>Picnic at Tybee Island Memorial Park</strong>
-                                    <div class="note">
-                                        <!-- <p class="small">Enjoy food, games, and family fun time!</p> -->
-                                        <p class="small"><b>Park Amenities:</b> Basketball, Beach Volleyball, Tennis, Playground</p>
-                                        <p class="small">North Beach is a ~6-minute walk from Tybee Island Memorial Park. Take the crosswalk at Butler Ave and 4th street to access the beach.</p>
+                            </ul>
+                            <h3>Afternoon</h3>
+                            <ul>
+                                <li>
+                                    12:00 pm — <b>Group Therapy Pub & Playground</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> 320 Falls St Ste G, Greenville, SC 29601</span>
+                                    <br> <span class="small">Enjoy Wacky Golf, Duckpin Bowling, Axe Throwing and more! Light food and soft drinks provided. Additional food and alcoholic beverages available for purchase. <em>Note: Waiver & close toed shoes required for Axe Throwing.</em>
+                                    <br><a class="small" href="https://www.grouptherapy.fun/greenville/" target="_blank">Learn More</a>
+                                    </span>
 
-                                        <!-- <p class="small">11:30 AM - 1:00 PM - Lunch</p>
-                                            <p class="small">1:00 PM - 2:45 PM - Games & Free time</p>
-                                            <p class="small">2:45 PM - Family Photo</p>
-                                            <p class="small">3:00 PM - Head back to Homewood Suites</p> -->
-                                        <p class="small"><b>Location:</b> 402 Jones Ave, Tybee Island, GA 31328</p>
+                                </li>
+                                <!-- <li>12:00 pm - 3:00 pm — <b>Sparetime Entertainment</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> 822 Congaree Rd, Greenville, SC 29607</span>
+                                    <br> <span class="small">Enjoy bowling, laser tag, arcade games, and more! Light food and soft drinks provided. Additional food and alcoholic beverages available for purchase.
+                        
+                                    </span>
 
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5:30pm - 6:15pm</td>
-                                <td><strong>Family Meeting <!-- - Hospitality Suite --> </strong></td>
-                            </tr>
-                            <tr>
-                                <td>6:30pm - until</td>
-                                <td><strong>Free Time</strong>
-                                    <div class="note">
-                                        <p class="small">Explore the city at your own pace, relax by the pool, or drop by the hospitality suite to catch up with family.</p>
-                                        <!-- <p class="small">*Light bites will be provided in the hospitality suite.</p> -->
-                                    </div>
+                                </li> -->
+                                <li>4:00 pm — <b>Free Time</b>
+                                    <br><span class="small"><span class="material-symbols-outlined">location_on</span> Explore Greenville on Your Own
+                                    <!--601 S Main Street, Greenville, SC 29601-->
+                                    </span>
+                                    <br> <span class="small">Take a stroll through Falls Park, browse downtown shops, or check out our <a href="#thingstodo">Things to Do guide</a> for more ideas!</span>
+                                </li>
+                                <!-- <li>3:00 pm or 4:00 pm — <b>Family Stroll to Falls Park on the Reedy</b> (optional)
+                                    <br><span class="small"><span class="material-symbols-outlined">location_on</span> 601 S Main Street, Greenville, SC 29601</span>
+                                    <br> <span class="small">After Sparetime, join us for a walk to Falls Park on the Reedy. Enjoy the waterfalls, scenic views, and Liberty Bridge before returning to the hotel at your leisure.</span>
+                                </li> -->
+                                <!-- 
+                                <li>4:00 pm — <b>Family Meeting</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> The BeeHive</span>
+                                </li> -->
+                            </ul>
+                            <h3>Evening</h3>
+                            <ul>
+                                <li>5:30 pm - 9:30 pm — <b>Visit Main Street Fridays</b> <span class="optional">Optional</span>
+                                    <br> <span class="small"> <span class="material-symbols-outlined">location_on</span> 220 North Main Street, Greenville, SC 29601</span>
+                                    <br><span class="small">Enjoy live music and dancing at NOMA Square. Grab dinner from nearby restaurants or food trucks while soaking in the downtown atmosphere.
+                                        <br> <span class="small"><a href="https://www.greenvillesc.gov/1322/Greenville-Heritage-Main-Street-Fridays" target="_blank">See entertainment & food truck lineup</a></span>
+                                    </span>
+                                </li>
+                                <li>7:00 pm - 11:00 pm — <b>Family Game Night & Dessert Social</b>
+                                    <br> <span class="small"><span class="material-symbols-outlined">location_on</span> The BeeHive (Breakfast Dining Room)</span>
+                                    <br> <span class="small">Whether you're returning from Main Street Fridays or staying at the hotel for the evening, join us for games, karaoke, and more! Enjoy a fun-filled evening indoors, or head outside to gather around the courtyard fire pits. Light bites and desserts served.</span>
+                                    <!-- <br> <span class="small">Whether you're returning from dinner at Main Street Fridays or spending the evening at the hotel, join us for desserts, savory bites, games, karaoke, and more! The space will be open beginning at 5:00 PM for early gathering, with the courtyard, fire pits, and lounge areas available all evening.</span> -->
+                                </li>
 
-                                </td>
-                            </tr>
-                        </table>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
                 <div id="thingstodo" class="things-to-do">
-                    <h3>Things to do <span>in Savannah, GA</span></h3>
-                    <p>Whether you're strolling cobblestone streets, relaxing on Tybee Island, or enjoying incredible food and cocktails, there's something here for everyone. Explore the city's rich culture, vibrant districts, and hidden gems. Make the most
-                        of our time together and create unforgettable memories in this beautiful, historic city.</p>
+                    <h3>Things to do <span>in Greenville, SC</span></h3>
+                    <p>Greenville offers plenty of ways to have fun together. Stroll downtown, explore Falls Park, enjoy the Blue Ridge foothills, or check out local shops and restaurants. Take your pick and enjoy the city!</p>
+
                     <ul class="cards">
                         <li class="card">
-                            <div class="card-image"><img src="images/tours.webp" /></div>
+                            <div class="card-image"><img src="images/fallspark.webp" /></div>
+                            <div class="card-info">
+                                <div class="card-title">Attractions</div>
+                                <ul>
+                                    <li><a href="https://www.greenvillesc.gov/167/Falls-Park" target="_blank">Falls Park on the Reedy</a></li>
+                                    <li><a target="_blank" href="https://www.greenvillezoo.com/">Greenville Zoo</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/mice-on-main/">Mice on Main</a></li>
+                                    <li>
+                                        <a target="_blank" href="https://pklparkgvl.com/">PKL Park GVL</a>
+                                    </li>
+                                    <li><a target="_blank" href="https://www.flyingrabbitadventures.com/">Flying Rabbit Adventures</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/blog/stories/post/greenville-county-sc-waterparks/">Greenville County Waterparks</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/things-to-do/attractions/">More...</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="card-image"><img src="images/LakeKeowee.jpg" /></div>
+                            <div class="card-info">
+                                <div class="card-title">Outdoor Adventures</div>
+                                <ul>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/listing/unity-park/14193/">Unity Park</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/things-to-do/itineraries/swamp-rabbit-trail-itineraries/">Swamp Rabbit Trail</a>
+                                    </li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/blog/stories/post/guide-to-spending-the-day-on-lake-keowee/">Lake Keowee</a>, <a target="_blank" href="https://www.visitgreenvillesc.com/blog/stories/post/your-guide-to-spending-the-day-on-lake-jocassee/">Lake Jocassee</a>,
+                                        or
+                                        <a target="_blank" href="https://www.visitgreenvillesc.com/blog/stories/post/your-guide-to-spending-the-day-on-lake-hartwell/">Lake Hartwell</a></li>
+                                    <li><a target="_blank" href="https://www.saludaoutdoorrivercompany.com/">Saluda Outdoor River Company</a> <span style="display:none" class="small">Zipline, Kayak, Paddleboard & Tubing</span></li>
+                                    <li><a target="_blank" href="https://greenriveradventures.com/">Green River Adventures</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/things-to-do/outdoor-activities/">More...</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="card-image"><img src="images/greenvilletours.jpg" /></div>
                             <div class="card-info">
                                 <div class="card-title">Tours</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://www.trolleytours.com/savannah">Old Town Trolley Tours</a></li>
-                                    <li><a target="_blank" href="https://savannahriverboat.com/">Savannah Riverboat Cruise</a></li>
-                                    <li><a target="_blank" href="https://savannahcathedral.org/visit/">The Cathedral Basilica of St. John the Baptist</a></li>
-                                    <li><a target="_blank" href="https://sorrelweedhouse.com/">The Old Sorrel-Weed House</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/list/18-spooky-savannah-ghost-tours">Ghost Tours</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/tours-excursions">More...</a></li>
+                                    <li><a target="_blank" href="https://bhigtours.com/">Black History Tours</a></li>
+                                    <li><a target="_blank" href="https://fareharbor.com/embeds/book/greenvillehistorytours/items/?flow=627598&full-items=yes">Greenville History Tours</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/things-to-do/attractions/walking-tours/">Self-guided walking tours</a></li>
+                                    <li><a target="_blank" href="https://fareharbor.com/embeds/book/pedegoelectricbikes-greenville/items/?full-items=yes">Bike tours</a></li>
+                                    <li><a target="_blank" href="https://greenvillesegwaytours.com/">Segway Tours</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/things-to-do/attractions/tours/?bounds=false&view=grid&sort=random&filter_bookTickets%5B0%5D=26">More...</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="card">
-                            <div class="card-image"><img src="images/museums.jpg" /></div>
+                            <div class="card-image"><img src="images/greenvillemuseum.jpg" /></div>
                             <div class="card-info">
                                 <div class="card-title">Museums</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://chsgeorgia.org/savannah-childrens-museum/">Savannah Children's Museum</a></li>
-                                    <li><a target="_blank" href="https://www.scadmoa.org/">SCAD Museum of Art</a></li>
-                                    <li><a target="_blank" href="https://chsgeorgia.org/georgia-state-railroad-museum/">GA State Railroad Museum</a></li>
-                                    <li><a target="_blank" href="https://www.telfair.org/">Telfair Museums</a></li>
-                                    <li><a target="_blank" href="https://www.americanprohibitionmuseum.com/">American Prohibition Museum</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/savannahs-gullah-geechee-heritage">Gullah Geechee Heritage</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/arts-culture">More...</a></li>
+                                    <li><a target="_blank" href="https://tcmupstate.org/">The Children's Museum of the Upstate</a></li>
+                                    <li><a target="_blank" href="https://gcma.org/">Greenville County Museum of Art</a></li>
+                                    <li><a target="_blank" href="https://www.ropermountain.org/"> Roper Mountain Science Center</a></li>
+                                    <li><a target="_blank" href="https://sigalmusicmuseum.org/">Sigal Music Museum</a></li>
+                                    <!-- <li><a target="_blank" href="https://upcountryhistory.org/">Upcountry History Museum</a></li> -->
+                                    <li><a target="_blank" href="https://www.bmwgroup-werke.com/spartanburg/en.html#plant-tours-museum-zentrum">BMW Zentrum Museum</a></li>
+                                    <li><a target="_blank" href="https://www.upstatearcade.com/">Upstate Pinball and Arcade Museum</a></li>
+                                    <!--<li><a target="_blank" href="https://visitsavannah.com/arts-culture">More...</a></li> -->
                                 </ul>
                             </div>
                         </li>
                         <li class="card">
-                            <div class="card-image"><img src="images/districts.jpg" /></div>
+                            <div class="card-image"><img src="images/greenvilleentertainment.webp" /></div>
                             <div class="card-info">
-                                <div class="card-title">Districts & Destinations</div>
+                                <div class="card-title">Entertainment</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://www.google.com/search?q=forsyth+park+savannah/">Forsyth Park</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/list/things-to-do-river-street">River Street</a></li>
-                                    <li><a target="_blank" href="https://www.plantriverside.com/">Plant Riverside District</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/article/savannahs-squares-and-parks">Savannah Squares & Parks</a></li>
-                                    <li><a href="https://www.trolleytours.com/savannah/rainbow-row" target="_blank">Rainbow Row</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/moon-river-district">Moon River District</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/neighborhoods-districts">More...</a></li>
+                                    <li><a target="_blank" href="https://www.stonepin.com/">Stone Pin Bowling Alley</a></li>
+                                    <li><a href="https://wantecvr.com/anvio/">Wantec Virtual Reality Arcade</a></li>
+                                    <li><a target="_blank" href="https://frankies.com/greenville/">Frankie's Fun Park</a></li>
+                                    <li><a target="_blank" href="https://takeoffminigolf.com/">Takeoff Mini Golf</a></li>
+                                    <li><a target="_blank" href="https://www.modeltrainsstation.com/">Model Train Station</a></li>
+                                    <li><a target="_blank" href="https://www.mainevent.com/locations/south-carolina/greenville/">Main Event</a></li>
                                 </ul>
                             </div>
                         </li>
+
                         <li class="card">
-                            <div class="card-image"><img src="images/pedalpub.jpg" /></div>
+                            <div class="card-image"><img src="images/greenvillefood.jpg" /></div>
                             <div class="card-info">
-                                <div class="card-title">Fun Ways to Get Around Savannah</div>
+                                <div class="card-title">Restaurants</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://www.pedalpub.com/savannah-ga/">Pedal Pub</a></li>
-                                    <li><a target="_blank" href="https://cyclesavannah.com/">Sip & Cycle</a></li>
-                                    <li><a target="_blank" href="https://www.savannahcarriage.com/">Horse & Carriage</a></li>
-                                    <li><a target="_blank" href="https://www.savannahonwheels.com/">Bike Tour</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="card-image"><img src="images/food.jpg" /></div>
-                            <div class="card-info">
-                                <div class="card-title">Food</div>
-                                <ul>
-                                    <li><a target="_blank" href="https://thecollinsquarter.com/">Collins Quarter</a></li>
-                                    <li><a target="_blank" href="https://www.bmatthewseatery.com/">B. Matthews Eatery</a></li>
-                                    <li><a target="_blank" href="https://www.vicsontheriver.com/">Vics on the River</a></li>
-                                    <li><a href="https://www.theshrimpfactory.com/" target="_blank">The Shrimp Factory</a></li>
-                                    <li><a target="_blank" href="https://www.littleduckdiner.com/">Little Duck Diner</a></li>
-                                    <li><a target="_blank" href="https://www.starlandyard.com/">Starland Yard Outdoor Food Court</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/food-drink">More...</a></li>
+                                    <li><a target="_blank" href="https://www.stirgreenville.com/">Stir</a></li>
+                                    <li><a target="_blank" href="https://thelazygoat.com/">The Lazy Goat</a></li>
+                                    <li><a target="_blank" href="https://gathergreenville.com/"> Gather Greenville</a></li>
+                                    <li><a target="_blank" href="https://commonsgvl.com/">The Commons Food Hall</a></li>
+                                    <li><a target="_blank" href="https://hallschophousegvl.com/">Halls Chophouse</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/food-drink/">More...</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -214,60 +279,42 @@
                             <div class="card-info">
                                 <div class="card-title">Cocktail Bars</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://www.plantriverside.com/savannah-restaurants-bars/myrtle-rose-rooftop-bar/">Myrtle & Rose Rooftop Bar</a></li>
-                                    <li><a target="_blank" href="https://www.thelostsquare.com/"> The Lost Square</a></li>
-                                    <li><a target="_blank" href="https://www.thevinylroomsav.com/">The Vinyl Room</a></li>
-                                    <li><a target="_blank" href="https://www.artillerybar.com/">Artillery Bar</a></li>
-                                    <li><a target="_blank" href="https://www.thefitzroysavannah.com/">Fitzroy</a></li>
-                                    <li><a target="_blank" href="https://www.alleycatsavannah.com/">Alley Cat Lounge</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/article/where-to-find-craft-cocktails-savannah">More..</a></li>
+                                    <li><a target="_blank" href="https://www.junipergvl.com/">Juniper</a></li>
+                                    <li><a target="_blank" href="https://eatupdrinkup.net/greenville-sc/">Up on the Roof</a></li>
+                                    <li><a target="_blank" href="https://bluesboulevardjazzgreenville.com/">Blues Boulevard Jazz</a></li>
+                                    <li><a target="_blank" href="https://www.spiritbower.com/">Spirit & Bower</a></li>
+                                    <li><a target="_blank" href="https://www.visitgreenvillesc.com/food-drink/cocktail-bars-speakeasies/">More...</a></li>
 
                                 </ul>
                             </div>
                         </li>
                         <li class="card">
-                            <div class="card-image"><img src="images/shopping.jpg" /></div>
+                            <div class="card-image"><img src="images/shopping-greenville.jpg" /></div>
                             <div class="card-info">
                                 <div class="card-title">Shopping</div>
                                 <ul>
-                                    <li><a target="_blank" href="https://www.theparismarket.com/">The Paris Market</a></li>
-                                    <li>Broughton Street Shopping - <span class="small">Discover big names & small treasures in the heart of Savannah.</span></li>
-                                    <li><a target="_blank" href="https://eshaverbooks.com/">E. Shaver Booksellers</a></li>
-                                    <li><a target="_blank" href="https://jonesandbull.com/">Jones & Bull: Vintage and Antique</a></li>
-                                    <li><a target="_blank" href="https://visitsavannah.com/shopping">More...</a></li>
+                                    <li><a target="_blank" href="https://www.bridgewaystation.com/">Bridgeway Station</a> <span class="small">aka "The Castle"</span></li>
+                                    <li><a target="_blank" href="https://www.simon.com/mall/haywood-mall">Haywood Mall</a></li>
+                                    <li><a target="_blank" href="https://www.greerstation.com/shop/">Greer Station</a></li>
+                                    <li><a target="_blank" href="https://www.hamptonstation.com/">Hampton Station</a></li>
+                                    <li><a target="_blank" href="https://www.taylorsmill.com/">Taylors Mill</a></li>
+                                    <!-- <li>Downtown Greenville - Main St</li> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="card-image"><img src="images/asheville.avif" /></div>
+                            <div class="card-info">
+                                <div class="card-title">Nearby Adventures for Day Trips or Longer Stays</div>
+                                <ul>
+                                    <li><a target="_blank" href="https://www.exploreasheville.com/">Asheville, NC</a> - <span class="small">1 hr 15 min drive</span></li>
+                                    <li><a target="_blank" href="https://www.charlottesgotalot.com/">Charlotte, NC</a> - <span class="small">1 hr 45 min drive</span></li>
+                                    <li><a target="_blank" href="https://www.charlestoncvb.com/">Charleston, SC</a> - <span class="small">3 hr 15 min drive</span></li>
+                                    <li><a target="_blank" href="https://www.hiltonheadisland.org/">Hilton Head, SC</a> - <span class="small">4 hr drive</span></li>
+                                </ul>
+                            </div>
+                        </li>
 
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="card-image"><img src="images/tybee.jpg" /></div>
-                            <div class="card-info">
-                                <div class="card-title">Tybee Island</div>
-                                <ul>
-                                    <li><a target="_blank" href="https://visittybee.com/beaches">Beaches</a></li>
-                                    <li><a target="_blank" href="https://tybeedolphinadventure.com/">Tybee Dolphin Tours</a></li>
-                                    <!-- <li><a href="https://tybeemarinescience.org/" target="_blank">Marine Science Center</a></li> -->
-                                    <li><a href="https://www.tybeelighthouse.org/" target="_blank">Light Station and Museum</a></li>
-                                    <li><a href="https://tybeevacationrentals.com/" target="_blank">Tybee Island Vacation Rentals</a></li>
-                                    <li><a href="https://www.thecrabshack.com/" target="_blank">The Crab Shack</a></li>
-                                    <li><a href="https://visittybee.com/" target="_blank">More...</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="card-image"><img src="images/hiltonhead.jpg" /></div>
-                            <div class="card-info">
-                                <div class="card-title">Looking to explore more? Try these easy day trips.</div>
-                                <ul>
-                                    <li><a target="_blank" href="https://www.jekyllisland.com/">Jekyll Island</a> <span class="small">~1.5 hr drive</span></li>
-                                    <li><a target="_blank" href="https://www.explorestsimonsisland.com/">St. Simon's Island</a> <span class="small">~1.5 hr drive</span></li>
-                                    <li><a target="_blank" href="https://www.hiltonheadisland.org/">Hilton Head Island</a> <span class="small">~45 min drive</span></li>
-                                    <li><a target="_blank" href="https://charleston.com/">Charleston, SC</a> <span class="small">~2 hr drive</span></li>
-                                    <li><a target="_blank" href="https://www.ameliaisland.com/">Amelia Island</a> <span class="small">~2 hr drive</span></li>
-                                    <!-- <li><a target="_blank" href="https://www.visitpooler.com/things-to-do/">Pooler, GA</a></li> -->
-                                </ul>
-                            </div>
-                        </li>
                     </ul>
 
                 </div>
@@ -287,12 +334,16 @@
                 <div>
                     <!-- <h3>Connect</h3> -->
                     <p>Connect and share your reunion highlights on <a href="https://www.facebook.com/groups/hurleyhayes/" target="_blank">Facebook</a>!<br></p>
+                    <p><b>Questions?</b> <br> Contact Cara at carapsmith@gmail.com or 404-917-5041.</p>
                 </div>
             </div>
 
-            <!-- <p>Check out our Living Family Tree <a href="https://youtu.be/eN-qUV17WGI " target="_blank">HERE</a></p> -->
+            <p class="small copyright">&copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> All Rights Reserved. Made with &hearts;</p>
+            <p class="small"><a href="privacypolicy.html">Privacy Policy</a></p>
 
-            <p class="small copyright">&copy; 2025 All Rights Reserved. Made with &hearts;</p>
         </div>
 
     </footer>
